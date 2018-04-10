@@ -20,7 +20,7 @@ static t_class *multipan_class = NULL;
 
 int C74_EXPORT main(void)
 {
-  t_class *c = class_new("multipan~", (method)multipan_new, (method)multipan_free, (long)sizeof(t_multipan), 0L, A_GIMME, 0);
+  t_class *c = class_new("y.multipan~", (method)multipan_new, (method)multipan_free, (long)sizeof(t_multipan), 0L, A_GIMME, 0);
 
   // ====  MAX MSP METHODS  ====
 
