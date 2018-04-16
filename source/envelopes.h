@@ -18,8 +18,8 @@
 //     F: [0,1] --> [0,1]
 //          0   -->   1
 
-typedef enum _xfade_type
-{
+typedef enum _xfade_type {
+
   XFADE_UNDEF,
   XFADE_NONE,
   XFADE_LINEAR,
@@ -44,8 +44,8 @@ typedef t_double(*t_xfade)(t_double, t_double);
 //     F: [0,1] --> [0,1]
 //          0   -->   1
 
-typedef enum _ramp_type
-{
+typedef enum _ramp_type {
+
   RAMP_UNDEF,
   RAMP_NONE,
   RAMP_LINEAR,
@@ -77,8 +77,8 @@ typedef t_double(*t_ramp)(t_double, t_double);
 //     F: [0,1] --> [0,1]    max(F) = 1
 //          0   -->   0      (or close to it)
 
-typedef enum _env_type
-{
+typedef enum _env_type {
+
   ENV_UNDEF,
   ENV_NONE,
   ENV_RECTANGULAR,
